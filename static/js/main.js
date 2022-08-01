@@ -118,7 +118,7 @@
     document.getElementById('expandNoteButton').addEventListener('click', expandTextarea);
 
     document.addEventListener('DOMContentLoaded', () => {
-        // allow for linus.zone/#<:slug> to go straight to editing
+        // allow for ltos.camp/#<:slug> to go straight to editing
         if (window.location.hash.length > 1) {
             const noteToEdit = window.location.hash.substr(1);
             idInput.value = noteToEdit;
